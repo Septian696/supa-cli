@@ -1,0 +1,30 @@
+{
+  "name": "canton-cli",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "Supanova Canton Wallet CLI",
+  "main": "cantonctl.mjs",
+  "scripts": {
+    "start": "node cantonctl.mjs",
+    "init": "node cantonctl.mjs init",
+    "login": "node cantonctl.mjs login",
+    "status": "node cantonctl.mjs status",
+    "balances": "node cantonctl.mjs balances",
+    "claim": "node cantonctl.mjs claim",
+    "clear": "rm -f ~/.supa_canton_token.json && echo '🗑️ Token cleared'"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chalk": "^5.6.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.6.1",
+    "got-scraping": "^4.2.1",
+    "inquirer": "^13.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

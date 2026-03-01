@@ -1,0 +1,21 @@
+# 🔐 JANGAN upload token user!
+.supa_accounts.json
+~/.supa_accounts.json
+
+# 📦 Dependencies (bisa npm install)
+node_modules/
+
+# 📝 Logs
+*.log
+npm-debug.log*
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 💾 Backup files
+*~
+.bak
+.backup
