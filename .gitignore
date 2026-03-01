@@ -19,3 +19,8 @@ Thumbs.db
 *~
 .bak
 .backup
+
+# Backup files
+*.bak
+*.backup
+*.old
